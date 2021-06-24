@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Liver Prediction Model</title>
+    <style>
+
+</style>
+</head>
+<body>
+
+    <div style="color:black">
+        <h1>Liver Disease Prediction</h1>
+    </div>
+    <div class="ml-container">
+        <form action="{{ url_for('predict') }}" method="POST">
+            <br>
+            <h3>Age</h3>
+            <input id="first" name="Age" placeholder="in Year" required="required">
+            <br>
+            <h3>Gender</h3>
+            <input id="second" name="Gender" placeholder="Male = 1, Female=0" required="required">
+            <br>
+            <h3>Total Bilirubin</h3>
+            <input id="third" name="Total_Bilirubin" placeholder="Total Bilirubin" required="required">
+            <br>
+            <h3>Alkaline Phosphotase</h3>
+            <input id="fourth" name="Alkaline_Phosphotase" placeholder="Alkaline Phosphotase" required="required">
+            <br>
+            <h3>Alamine Aminotransferase</h3>
+            <input id="fifth" name="Alamine_Aminotransferase" placeholder="Alamine Aminotransferase" required="required">
+            <br>
+            <h3>Aspartate Aminotransferase</h3>
+            <input id="sixth" name="Aspartate_Aminotransferase" placeholder="Aspartate Aminotransferase" required="required">
+            <br>
+            <h3>Total Protiens</h3>
+            <input id="seventh" name="Total_Protiens" placeholder="Total Protiens" required="required">
+            <br>
+            <h3>Albumin</h3>
+            <input id="eight" name="Albumin" placeholder="Albumin" required="required">
+            <br>
+            <h3>Albumin and Globulin Ratio</h3>
+            <input id="ninth" name="Albumin_and_Globulin_Ratio" placeholder="Albumin and Globulin Ratio" required="required">
+            <br>
+            <br>
+
+            <button id="sub" type="submit ">Submit</button>
+            <br>
+
+        </form>
+
+    </div>
+
+<style>
+
+        body {
+            background-color: #8792a3;
+            text-align: center;
+            padding: 0px;
+        }
+
+
+        #sub {
+            width: 100px;
+            height: 35px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+
+
+
+    </style>
+
+
+</body>
+
+</html>
+
+
