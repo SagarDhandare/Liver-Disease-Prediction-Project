@@ -8,8 +8,8 @@ This repository consists of files required to deploy a Machine Learning Web App 
 
 ## Demo
 
-<img src="">
-<img src="">
+<img src="https://raw.githubusercontent.com/SagarDhandare/Liver-Disease-Prediction-Project/main/Images/gif.gif">
+<img src="https://raw.githubusercontent.com/SagarDhandare/Liver-Disease-Prediction-Project/main/Images/gif1.gif">
 
 ## Tech Stack
 
@@ -27,7 +27,7 @@ To run app, run the following command
   
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/SagarDhandare/Heart-Disease-Project/main/Images/screenshot.png)
+![App Screenshot](https://raw.githubusercontent.com/SagarDhandare/Liver-Disease-Prediction-Project/main/Images/screenshot.png)
 
   
 ## Deployment
@@ -81,7 +81,7 @@ Push code to Master Branch
 Here are some related projects
 
 
-[Liver Disease](https://github.com/SagarDhandare/Liver-Disease-Prediction-Project)
+[Heart Disease](https://github.com/SagarDhandare/Heart-Disease-Project)
 
 [Stroke Prediction](https://github.com/SagarDhandare/Stroke-Prediction-Project)
 
