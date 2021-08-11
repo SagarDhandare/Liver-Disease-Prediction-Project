@@ -87,7 +87,7 @@ Here are some related projects
 
 [Diabetes Disease](https://github.com/SagarDhandare/Diabetes-Disease-Project)
 
-[Chronic Kidney Disease Prediction Project](https://github.com/SagarDhandare/Chronic-Kidney-Disease-Prediction-Project)
+[Chronic Kidney Disease](https://github.com/SagarDhandare/Chronic-Kidney-Disease-Prediction-Project)
 
 [Breast Cancer Disease](https://github.com/SagarDhandare/Breast-Cancer-Disease-Prediction-Project)
   
