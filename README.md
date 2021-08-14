@@ -7,17 +7,19 @@ This repository consists of files required to deploy a Machine Learning Web App 
 • https://liver-disease-pred.herokuapp.com/
 
 ## Demo
-
 <img src="https://raw.githubusercontent.com/SagarDhandare/Liver-Disease-Prediction-Project/main/Images/gif.gif">
 <img src="https://raw.githubusercontent.com/SagarDhandare/Liver-Disease-Prediction-Project/main/Images/gif1.gif">
 
-## Dataset
+## Problem Statement
+This data set contains 416 liver patient records and 167 non liver patient records collected from North East of Andhra Pradesh, India. The "Dataset" column is a class label used to divide groups into liver patient (liver disease) or not (no disease). This data set contains 441 male patient records and 142 female patient records.
 
+Use these patient records to determine which patients have liver disease and which ones do not.
+
+## Dataset
 [Liver Disease Dataset](https://www.kaggle.com/uciml/indian-liver-patient-records)
 
 
-## Tech Stack
-
+## Technology used
 - Python
 - Machine Learning
 - Pandas
@@ -39,7 +41,7 @@ To run app, run the following command
 ```
 
   
-## Screenshots
+## Screenshot
 
 ![App Screenshot](https://raw.githubusercontent.com/SagarDhandare/Liver-Disease-Prediction-Project/main/Images/screenshot.png)
 
