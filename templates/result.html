@@ -18,10 +18,10 @@
         <!-- Result -->
 		<div class="results">
 			{% if prediction==2 %}
-				<h1><span class='danger'>Oops! <br><br>You have LIVER DISEASE.</span></h1>
-				<img class="gif" src="{{ url_for('static', filename='no.webp')}}" alt="LIVER Image">
+				<h1><span class='danger'>Oops! 🙁<br><br>You have LIVER DISEASE.<br><br>Please Consult Doctor.</span></h1>
+				<img class="gif" src="{{ url_for('static', filename='dr.gif')}}" alt="LIVER Image">
 			{% elif prediction==1 %}
-				<h1><span class='safe'>Congratulation!<br><br>You DON'T have LIVER DISEASE.</span></h1>
+				<h1><span class='safe'>🤩 Don't Worry! 🤩!<br><br>You DON'T have LIVER DISEASE.</span></h1>
 				<img class="gif1" src="{{ url_for('static', filename='yes.webp')}}" alt="Not LIVER Image">
 			{% endif %}
 		</div>
