@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Liver Prediction Model</title>
+
+</head>
+<body>
+    <div class="container">
+        <h2 class='container-heading'><span class="heading_font">Liver Disease Prediction</span></h2>
+    </div>
+
+    <div class="ml-container">
+        <form action="{{ url_for('predict') }}" method="POST">
+            <br>
+            <h3>Age</h3>
+            <input id="first" name="Age" placeholder="in Year" required="required">
+            <br>
+            <h3>Gender</h3>
+            <input id="second" name="Gender" placeholder="Male = 1, Female=0" required="required">
+            <br>
+            <h3>Total Bilirubin</h3>
+            <input id="third" name="Total_Bilirubin" placeholder="Total Bilirubin" required="required">
+            <br>
+            <h3>Alkaline Phosphotase</h3>
+            <input id="fourth" name="Alkaline_Phosphotase" placeholder="Alkaline Phosphotase" required="required">
+            <br>
+            <h3>Alamine Aminotransferase</h3>
+            <input id="fifth" name="Alamine_Aminotransferase" placeholder="Alamine Aminotransferase" required="required">
+            <br>
+            <h3>Aspartate Aminotransferase</h3>
+            <input id="sixth" name="Aspartate_Aminotransferase" placeholder="Aspartate Aminotransferase" required="required">
+            <br>
+            <h3>Total Protiens</h3>
+            <input id="seventh" name="Total_Protiens" placeholder="Total Protiens" required="required">
+            <br>
+            <h3>Albumin</h3>
+            <input id="eight" name="Albumin" placeholder="Albumin" required="required">
+            <br>
+            <h3>Albumin and Globulin Ratio</h3>
+            <input id="ninth" name="Albumin_and_Globulin_Ratio" placeholder="Albumin and Globulin Ratio" required="required">
+            <br>
+            <br>
+            <br>
+            <button id="sub" type="submit ">Submit</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class='footer-description'>©2021 Sagar Dhandare</p>
+
+        </form>
+    </div>
+
+
+
+
+<style>
+
+/* Background Image */
+body
+{
+background-image:url("https://raw.githubusercontent.com/SagarDhandare/Liver-Disease-Prediction-Project/main/Images/Liver.jpg");
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+
+/* Color */
+body{
+	font-family: Arial, Helvetica,sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Heading Font */
+.container-heading{
+    margin: 0;
+}
+
+.heading_font{
+    color: #black;
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+
+
+/* Box */
+        #first {
+            border-radius: 14px;
+            height: 25px;
+            width: 150px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            width: 220px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #third {
+            border-radius: 14px;
+            height: 25px;
+            width: 180px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #fourth {
+            border-radius: 14px;
+            height: 25px;
+            width: 250px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #fifth {
+            border-radius: 14px;
+            height: 25px;
+            width: 270px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #sixth {
+            border-radius: 14px;
+            height: 25px;
+            width: 280px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #seventh {
+            border-radius: 14px;
+            height: 25px;
+            width: 170px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #eight {
+            border-radius: 14px;
+            height: 25px;
+            width: 150px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #ninth {
+            border-radius: 14px;
+            height: 25px;
+            width: 280px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+
+
+/* Submit Button */
+#sub {
+            width: 120px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</style>
+
+
+</body>
+
+</html>
+
+
